@@ -1,0 +1,17 @@
+[
+    {
+        "comment_text": "test1 test1 test1 test1 test1",
+        "user_id": 1,
+        "post_id": 1
+    },
+    {
+        "comment_text": "test2 test2 test2 test2 test2 test teststetegrg",
+        "user_id": 2,
+        "post_id": 2
+    },
+    {
+        "comment_text": "test3 test3 test3 test3 test3 abcdefefgjgjdgj",
+        "user_id": 3,
+        "post_id": 3
+    }
+]
