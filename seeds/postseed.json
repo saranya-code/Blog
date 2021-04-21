@@ -2,22 +2,16 @@
     {
     "title":"test title1",
     "content":"test tes",
-    "created_at":"4/3/2000",
-    "updated_by":"12/3/2011",
     "user_id":1
 },
 {
     "title":"test title2",
     "content":"test tes",
-    "created_at":"3/3/1990",
-    "updated_by":"4/10/1996",
     "user_id":2
 },
 {
     "title":"test title3",
     "content":"test tes",
-    "created_at":"4/2/1999",
-    "updated_by":"4/5/1999",
     "user_id":3
 }
 ]
