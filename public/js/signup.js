@@ -4,7 +4,9 @@ const signUp = async (event) => {
     const password= document.querySelector('#password').value.trim()
     event.preventDefault()
     if (username && password){
+        console.log('cominggggg')
         const response = await fetch('/api/user', {
+            
             method:'POST',
             body: JSON.stringify({ username, password }),
             headers: { 'Content-Type': 'application/json' },

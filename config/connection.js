@@ -5,7 +5,7 @@ let connection;
 
 // create connection to our db
 if( process.env.JAWSDB_URL ){
-  connection = sequelize = new Sequelize(process.env.JAWSDB_URL)
+  connection  = new Sequelize(process.env.JAWSDB_URL)
 } else {
   connection = new Sequelize(
     process.env.DB_NAME, 

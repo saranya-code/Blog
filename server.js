@@ -24,7 +24,7 @@ app.set('view engine', 'handlebars');
 const sess = {
   secret: 'Super secret secret',
   resave: false,
-  saveUninitialized: false,
+  saveUninitialized: true,
 };
 
 app.use(session(sess));
