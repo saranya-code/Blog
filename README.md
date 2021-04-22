@@ -39,8 +39,10 @@ Application’s folder structure follows the Model-View-Controller (MVC) paradig
 ## screenshot  
 
 
-![Webpage Screenshot](./images/insomnia-methods.gif?raw=true)
+![Webpage Screenshot](./public/images/techblog.gif?raw=true)
 
 ## Demo
+
+https://radiant-falls-32656.herokuapp.com/
 
 

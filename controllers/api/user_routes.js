@@ -9,7 +9,6 @@ router.post('/', async (req, res) => {
         username: req.body.username,
         password: req.body.password,
       });
-  console.log(dbUserData.dataValues.id)
       req.session.save(() => {
         req.session.loggedIn = true;
         req.session.user_id = dbUserData.dataValues.id;
