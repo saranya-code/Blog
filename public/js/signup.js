@@ -6,7 +6,6 @@ const signUp = async (event) => {
     if (username && password){
         console.log('cominggggg')
         const response = await fetch('/api/user', {
-            
             method:'POST',
             body: JSON.stringify({ username, password }),
             headers: { 'Content-Type': 'application/json' },
@@ -21,4 +20,4 @@ const signUp = async (event) => {
     }
 }
 
-document.querySelector('#signUp').addEventListener('click',signUp);
+document.getElementById('signUp').addEventListener('click',signUp);

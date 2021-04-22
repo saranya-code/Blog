@@ -10,26 +10,26 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
 </head>
 
-<body>
+  <body>
     <nav>
       <a href="/">Home</a>
-      <a href="/">Dashboard</a>
+      <a href="/dashboard">Dashboard</a>
       {{#if loggedIn}}
         <button id="logout" class="btn-no-style">Logout</button>
       {{else}}
         <a href="/login">Login</a>
       {{/if}}
-   </nav>
-   <header>
-    <h1>The tech blog</h1>
-   </header>
-  
+    </nav>
+      <header>
+        <h1>Tech blog</h1>
+      </header>
+        
+      <main>
+          {{{body}}}    
+      </main>
 
-
-    <main>
-        {{{body}}}    
-    </main>
-
-</body>
-<script src="/js/logout.js"></script>
+      {{!-- {{#if loggedIn}} --}}
+      <script src="/js/logout.js"></script>
+      {{!-- {{/if}} --}}
+  </body>
 </html>
