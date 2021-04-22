@@ -1,5 +1,5 @@
-<ul class="people_list">
-  {{#each people}}
-    <li>{{this}}</li>
-  {{/each}}
-</ul>
+<article class="post">
+    {{#each posts as |post| }}
+        {{> post_info post}}
+    {{/each}}
+</article>

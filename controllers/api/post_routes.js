@@ -3,8 +3,6 @@ const { Post } = require('../../models');
 
 
 router.post('/newpost', async (req, res) => {
-
-    console.log(req.session.user_id)
     try {
       const dbUserData = await Post.create({
         title: req.body.title,
@@ -13,12 +11,13 @@ router.post('/newpost', async (req, res) => {
         created_at: new Date(),
         updated_by: new Date()
       });
-        console.log(dbUserData)
         res.status(200).json(dbUserData);
     } catch (err) {
       console.log(err);
       res.status(500).json(err);
     }
 });
+
+//Get all post
 
 module.exports = router;
